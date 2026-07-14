@@ -26,4 +26,40 @@
 
 
 ## Dataset
-데이터는 보이스피싱 
+데이터는 금융감독원에 업로드되어있는 실제 보이스피싱 사례 음성 데이터와 국립국어원의 언어정보나눔터 일상대화 말뭉치를 수집하여 각각을 보이스피싱 데이터와 일반대화 데이터로 구성했습니다.
+
+### Data Processing
+- 데이터 정제
+- 클래스 불균형 해소를 위해 일반 대화 데이터를 동일한 개수로 샘플링
+- 데이터 셔플
+- Train/Validation/Test 분할 (8:1:1)
+
+
+## 🤖Model
+- KoBERT(skt/kobert-base-v1)
+
+### Hyperparameters
+|	Parameter	|	Value	|
+|---|---|
+|	Epoch	|	5	|
+|	Learning Rate	|	5e-5	|
+|	Optimizer	| AdamW	|
+|	Labels	|	2	|
+
+
+## 🔄Training Pipeline
+Text Dataset
+↓ 
+Data Cleaning
+↓ 
+Balanced Sampling
+↓ 
+Train / Validation / Test Split
+↓ 
+KoBERT Tokenizer
+↓ 
+KoBERT Fine-tuning
+↓ 
+Evaluation
+
+
