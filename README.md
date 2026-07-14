@@ -1,4 +1,4 @@
-# 📞Voicephishing_detection
+# 📞Voicephishing_detection  
 ## 📌Project Overview
 본 프로젝트는 음성 데이터를 텍스트로 변환한 뒤, KoBERT 기반 자연어처리 모델을 이용하여 보이스피싱 여부를 분류하는 AI 프로젝트입니다.
 
@@ -48,18 +48,36 @@
 
 
 ## 🔄Training Pipeline
-Text Dataset
-↓ 
-Data Cleaning
-↓ 
-Balanced Sampling
-↓ 
-Train / Validation / Test Split
-↓ 
-KoBERT Tokenizer
-↓ 
-KoBERT Fine-tuning
-↓ 
+Text Dataset  
+↓  
+Data Cleaning  
+↓  
+Balanced Sampling  
+↓  
+Train / Validation / Test Split  
+↓  
+KoBERT Tokenizer  
+↓  
+KoBERT Fine-tuning  
+↓  
 Evaluation
 
 
+## 📊Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+학습 과정에서 validation 성능을 매 epoch마다 확인했으며, 최종적으로는 test dataset에서 모델 성능을 평가하였습니다.
+
+
+## 💾Model Saving
+- Fine-tuned KoBERT Model
+- Tokenizer
+이를 통해 추론 단계에서 동일한 모델을 사용할 수 있도록 구성했습니다.
+
+
+## 🚀Future Improvements
+- 더 다양한 보이스피싱 데이터 확보
+- 데이터 증강을 통한 일반화 성능 향상
