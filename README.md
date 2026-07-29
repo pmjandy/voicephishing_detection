@@ -1,16 +1,21 @@
-# 📞Voicephishing_detection  
-## 📌Project Overview
+# 📞 Voicephishing_detection  
+
+## 🛜 HuggingFace URL
+https://huggingface.co/spaces/Lilju/voicephishing_detection
+
+
+## 📌 Project Overview
 본 프로젝트는 음성 데이터를 텍스트로 변환한 뒤, KoBERT 기반 자연어처리 모델을 이용하여 보이스피싱 여부를 분류하는 AI 프로젝트입니다.
 
 음성 데이터는 STT(Speech-to-Text)를 통해 텍스트로 변환한 후, KoBERT 분류 모델을 학습시켜 사용자가 업로드 한 음성데이터의 보이스피싱 여부를 분류하고 그 정도를 예측합니다.
 
 
-## 🎯Project Objectives
+## 🎯 Project Objectives
 - 보이스피싱 분류 모델 구축
 - 단순한 키워드 탐지가 아닌 대화의 문맥을 분석하는 시스템 구현
 - 다양한 보이스피싱 유형에 대응할 수 있는 시스템 구현
 	
-## 🛠️Tech Stack
+## 🛠️ Tech Stack
 ### Language
 - Python
 
@@ -36,7 +41,7 @@
 - Train/Validation/Test 분할 (8:1:1)
 
 
-## 🤖Model
+## 🤖 Model
 - KoBERT(skt/kobert-base-v1)
 
 ### Hyperparameters
@@ -48,7 +53,7 @@
 |	Labels	|	2	|
 
 
-## 🔄Training Pipeline
+## 🔄 Training Pipeline
 Text Dataset  
 ↓  
 Data Cleaning  
@@ -64,7 +69,7 @@ KoBERT Fine-tuning
 Evaluation
 
 
-## 📊Evaluation Metrics
+## 📊 Evaluation Metrics
 - Accuracy
 - Precision
 - Recall
@@ -73,12 +78,12 @@ Evaluation
 학습 과정에서 validation 성능을 매 epoch마다 확인했으며, 최종적으로는 test dataset에서 모델 성능을 평가하였습니다.
 
 
-## 💾Model Saving
+## 💾 Model Saving
 - Fine-tuned KoBERT Model
 - Tokenizer
 이를 통해 추론 단계에서 동일한 모델을 사용할 수 있도록 구성했습니다.
 
 
-## 🚀Future Improvements
+## 🚀 Future Improvements
 - 더 다양한 보이스피싱 데이터 확보
 - 데이터 증강을 통한 일반화 성능 향상
