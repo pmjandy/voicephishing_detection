@@ -85,13 +85,11 @@ KoBERT Fine-tuning
 Evaluation
 
 
-## 📊 Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-score
-
-학습 과정에서 validation 성능을 매 epoch마다 확인했으며, 최종적으로는 test dataset에서 모델 성능을 평가하였습니다.
+## 📈 Result(최종 epoch)
+- validation accuracy: 0.8086
+- precision: 0.7582
+- recall: 0.9079
+- f1 score: 0.8263
 
 
 ## 💾 Model Saving
