@@ -49,9 +49,8 @@ https://huggingface.co/spaces/Lilju/voicephishing_detection
 |---|---|
 |2|728281|
 
-columns 구성요소 
-- text: 음성 추출 문장 / 말뭉치 문장 
-- label: 1/0(해당 문장이 보이스피싱인지 아닌지)
+최종 데이터(balanced): 3030
+(보이스피싱: 1515, 일반대화데이터: 1515)
 
 
 ### Data Processing
