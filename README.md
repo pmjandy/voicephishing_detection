@@ -10,6 +10,10 @@ https://huggingface.co/spaces/Lilju/voicephishing_detection
 
 음성 데이터는 STT(Speech-to-Text)를 통해 텍스트로 변환한 후, KoBERT 분류 모델을 학습시켜 사용자가 업로드 한 음성데이터의 보이스피싱 여부를 분류하고 그 정도를 예측합니다.
 
+## 📚 My Role
+- 데이터 수집 및 정제
+- 웹페이지 디자인(html, css)
+- flask 서버 연결
 
 ## 🎯 Project Objectives
 - 보이스피싱 분류 모델 구축
