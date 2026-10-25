@@ -1,4 +1,5 @@
-# 📞Voicephishing_detection(2025.04~2025.10)
+# 📞 Voicephishing Detection  
+(2025.04~2025.10)
 
 ## 🛜 HuggingFace URL
 링크로 들어가시면 해당 프로젝트의 데모를 확인할 수 있습니다!  
