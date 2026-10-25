@@ -89,10 +89,10 @@ Evaluation
 
 
 ## 📈 Result(최종 epoch)
-- validation accuracy: 0.8086
-- precision: 0.7582
-- recall: 0.9079
-- f1 score: 0.8263
+- validation accuracy: 0.8449
+- precision: 0.8210
+- recall: 0.8808
+- f1 score: 0.8498
 
 
 ## 💾 Model Saving
