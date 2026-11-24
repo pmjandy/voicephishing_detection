@@ -29,12 +29,6 @@ https://huggingface.co/spaces/Lilju/voicephishing_detection
 - KoBERT
 - Hugging Face Transformers
 
-### Data Processing
-- pandas
-- numpy
-- scikit-learn
-- datasets
-
 
 ## Dataset
 데이터는 금융감독원에 업로드 되어있는 실제 보이스피싱 사례 음성 데이터와 국립국어원의 언어정보나눔터 일상대화 말뭉치를 수집하여 각각을 보이스피싱 데이터와 일반대화 데이터로 구성했습니다.
