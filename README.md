@@ -117,3 +117,4 @@ Evaluation
 
 ### EDA
 - 보이스피싱/일반대화 문장길이 비교
+!(sentence_length.png)
